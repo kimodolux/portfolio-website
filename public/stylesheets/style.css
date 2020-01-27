@@ -1,0 +1,46 @@
+html,body { height:100%; }
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('/images/masthead.TIFF');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.backdrop{
+  background: rgba(255, 255, 255, 0.6);
+}
+
+#preload{
+ background: url('/images/masthead.TIFF');
+ background: url('/images/smokey-woods.tiff');
+}
+
+.left-column{
+  background:#343a40;
+}
+
+.about-masthead{
+  background: url('/images/smokey-woods.tiff');
+  height: 100vh;
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 70%;
+}
+
+.project-back{
+  background: #fafafa;
+  padding-top: 5%;
+  padding-left: 4%;
+  vertical-align: bottom;
+}
+
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style-type: none;
+}

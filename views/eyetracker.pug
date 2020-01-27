@@ -1,0 +1,20 @@
+extends layout
+block content
+    section(class = "project-back")
+        div(class = "row")
+            div(class = "col-4")
+                h2 Eye Tracking Chrome Plugin
+                span(class="date") August 2019
+                h6 For my capstone project during my 2nd semseter of 2019, myself and a team of 3 worked together with a client to deliver a Google Chrome Plugin that could track users users eye to analyse their behaviour. 
+            div(class = "col-4 project-img")
+                img(src="/images/eye-track2.png" width = 800)
+    section(class = "project-back")    
+        div(class = "row")
+            div(class = "col-12")
+                h6 The client had several requirements such as the need for the drawing of a heatmap to indicate where the user is looking and an accurate calibration process whilst using a laptop web camera so that it was accesable without buying expensive infared camera often used with typical eye tracking software.
+                br
+                br
+                img(src ="/images/eye-track3.png" width= 1200)
+                br
+                br
+                h6 Due to these requirements, the plugin went through several variations, with the final product using a neural net written in Javascript to take training models of the users eye looking at different locations on the screen and using these to predict where the user is looking while using. 
